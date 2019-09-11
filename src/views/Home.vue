@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="welcomes"/>
   </div>
 </template>
 
@@ -13,6 +13,11 @@ export default {
   name: 'home',
   components: {
     HelloWorld
+  },
+  data:{
+    return(){
+      welcomes:"this content is pull from github git"
+    }
   }
 }
 </script>
